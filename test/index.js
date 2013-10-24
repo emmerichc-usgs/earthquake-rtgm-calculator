@@ -30,6 +30,7 @@ require([
 	require([
 		'spec/CurveTest',
 		'spec/HazardCurveParserTest',
+		'spec/RTGMApplicationTest,'
 		'spec/RTGMInputViewTest'
 	], function () {
 		if (window.mochaPhantomJS) {
